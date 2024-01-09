@@ -1,38 +1,13 @@
-# create-svelte
+# Powerloom Wallet Tracker
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+A Simple usecase to generate email triggers based on the user input. The Application keeps a tracker of the activity that are happening for a particular user wallet and sends an email with certain user-defined fields. 
 
-## Creating a project
+This Repo is the frontend that is built on Svelte.
 
-If you're seeing this, you've probably already done this step. Congrats!
+For Backend and other Compute Services, please refer this Repo: 
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+1. Snapshotter Compute: https://github.com/thecoderpanda/snapshotter-computes/tree/wallet-tracking
+2. Snapshotter Config: https://github.com/thecoderpanda/snapshotter-configs/tree/wallet-tracking
+3. Deploy: https://github.com/thecoderpanda/deploy/tree/wallet-tracking
+4. Pooler and Core API: https://github.com/thecoderpanda/pooler/tree/wallet-tracking
+   

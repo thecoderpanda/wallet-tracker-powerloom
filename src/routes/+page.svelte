@@ -1,6 +1,8 @@
 <script>
+// @ts-nocheck
+
 	import Counter from './Counter.svelte';
-	import Form from './form.svelte'
+	import Form from './Form.svelte'
 
 	function handleOnSubmit() {
 		console.log("I'm the handleOnSubmit() in App.svelte")
